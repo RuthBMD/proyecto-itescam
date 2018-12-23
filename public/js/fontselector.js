@@ -24,3 +24,11 @@ function removeClasses(JQElement){
         return classes_to_remove.join(" ");
     });   
 }    
+
+/**
+ * @author Victor Isaac Lopez Fernandez
+ * @param nada
+ */
+function noHaceNada(nada){
+    return 'nada';
+}
