@@ -1,0 +1,81 @@
+
+$(function () {
+	$('#newsList').newsTicker({
+		newsData: "#newsData",    
+		prevBtnDiv: "#prevDiv",    
+		nextBtnDiv: "#nextDiv",     
+		playPauseID: "#play-pause", 
+	});
+	
+	$('#newsList1').newsTicker({
+		newsData: "#newsData1",      
+		prevBtnDiv: "#prevDiv1",     // Prev button/div id 
+		nextBtnDiv: "#nextDiv1",     // Next button/div id 
+		playPauseID: "#play-pause1", // Play/Pause toggle button/div id
+	});
+	
+		$('#newsList2').newsTicker({
+		newsData: "#newsData2",      // Div where news will appear 
+		prevBtnDiv: "#prevDiv2",     // Prev button/div id 
+		nextBtnDiv: "#nextDiv2",     // Next button/div id 
+		playPauseID: "#play-pause2", // Play/Pause toggle button/div id
+	});
+		
+		$('#newsList3').newsTicker({
+		newsData: "#newsData3",      // Div where news will appear 
+		prevBtnDiv: "#prevDiv3",     // Prev button/div id 
+		nextBtnDiv: "#nextDiv3",     // Next button/div id 
+		playPauseID: "#play-pause3", // Play/Pause toggle button/div id
+	});
+		
+	
+	
+	
+	$('#newsList4').newsTicker({ //noticias
+		newsData: "#newsData4",    
+		prevBtnDiv: "#prevDiv",    
+		nextBtnDiv: "#nextDiv",     
+		playPauseID: "#play-pause", 
+	});
+		
+	$('#newsList5').newsTicker({ //noticias
+		newsData: "#newsData5",    
+		prevBtnDiv: "#prevDiv",    
+		nextBtnDiv: "#nextDiv",     
+		playPauseID: "#play-pause", 
+	});
+	
+	
+		$('#newsList6').newsTicker({ //noticias
+		newsData: "#newsData6",    
+		prevBtnDiv: "#prevDiv",    
+		nextBtnDiv: "#nextDiv",     
+		playPauseID: "#play-pause", 
+	})
+		
+		
+			$('#newsList7').newsTicker({ //noticias
+		newsData: "#newsData7",    
+		prevBtnDiv: "#prevDiv",    
+		nextBtnDiv: "#nextDiv",     
+		playPauseID: "#play-pause", 
+	});
+			
+			
+	  $('#newsList8').newsTicker({ //noticias
+		newsData: "#newsData8",    
+		prevBtnDiv: "#prevDiv",    
+		nextBtnDiv: "#nextDiv",     
+		playPauseID: "#play-pause", 
+	});
+	  
+	  
+	  	  $('#newsList9').newsTicker({ //noticias
+		newsData: "#newsData9",    
+		prevBtnDiv: "#prevDiv",    
+		nextBtnDiv: "#nextDiv",     
+		playPauseID: "#play-pause", 
+	})
+		
+});
+

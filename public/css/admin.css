@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.jumbotro {
+    background-color:#4682B4;
+    width: inherit;
+    height: 20rem;  
+}
+.container1{
+    background-color:#ffe599; 
+    width: inherit;
+     
+}
+
+     
+.container2{
+    margin-left: 3em;
+    
+}
+h2{
+    color:white;
+    text-align: center;
+    padding-left: 35%; 
+    padding-right: 0%; 
+}
+
+.row h2{
+    color:gray;
+    text-align: justify;
+}
+
+.linea {
+    background-color:#ffe599;
+    width: 100%;
+    color: #ffe599;
+
+}
+
+.btn1{
+   
+    margin-left: 3em;
+    overflow: hidden;
+}
+.btn2{
+
+}
+.conten .btn1 .btn2{
+   border: none;
+}
+.footer{
+    background-color: #4682B4;
+    width: 100%;
+    height: 70px;
+   
+   
+
+}
+.footer p{
+    color:white;
+    text-align: center;
+}
+
+#main-content{
+    min-height: 65vh;
+}

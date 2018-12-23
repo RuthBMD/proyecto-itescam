@@ -1,0 +1,41 @@
+.bulletin {
+	background: none repeat scroll 0 0 #FFFFFF;
+	bottom: 0;
+	left: 0;
+	box-shadow: 10px 0 5px #000000;
+	opacity: 100;
+	filter: alpha(opacity=60);
+	position: relative;
+	width: 100%;
+	z-index: 30;
+}
+.bulletin ul {
+	position: absolute;
+	float: left;
+	margin: 0 0 0 30px;
+	height: 23px;
+	overflow: hidden;
+	left: 0;
+	right: 20px;
+	background: url(../images/bulletin.gif) no-repeat;
+}
+.bulletin li {
+	position: absolute;
+	top: -999em;
+	left: 25px;
+	display: block;
+	white-space: nowrap;
+}
+.bulletin a {
+	height: 23px;
+	line-height: 23px;
+	text-decoration: none;
+	font-size:medium;
+	color: #FFFFFF;
+	
+}
+.bulletin .close {
+	float: right;
+	margin-right: 10px;
+	z-index: 30;
+}
