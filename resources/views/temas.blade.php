@@ -82,6 +82,7 @@
   );
 </script>
 <script src="{{ asset('js/fontselector.js') }}"></script>
+<script src="{{ asset('js/temasfetch.js') }}"></script>
 
 @endsection
 
