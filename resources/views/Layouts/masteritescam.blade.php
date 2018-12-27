@@ -8,6 +8,8 @@
    <link rel="stylesheet" href="{{ asset('Inicio_ITESCAM_files/normalize.css') }}">
     <link rel="stylesheet" href="{{ asset('Inicio_ITESCAM_files/bootstrap.min.css') }}">
     <link href="{{ asset('Inicio_ITESCAM_files/font-awesome.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('css/variables.css')}}">
+    <link rel="stylesheet" href="{{asset('css/temas.css')}}">
   <!--  
         <link href="css/neat-blue-dia.css" rel="stylesheet" media="screen" id="neat-stylesheet">
 
@@ -45,7 +47,7 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body style="">
+  <body class="">
  
     <link href="{{ asset('Inicio_ITESCAM_files/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
  <!-- data-control="class" -->
@@ -55,7 +57,7 @@
           <!-- Brand and toggle get grouped for better mobile display -->
 <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-              <span class="sr-only">Versi�n M�bil</span>
+              <span class="sr-only">Versión Móvil</span>
               <span class="icon-bar background-lead"></span>
               <span class="icon-bar background-lead"></span>
               <span class="icon-bar background-lead"></span>
@@ -164,4 +166,7 @@
     
 		</footer>	<!--fin PIE DE PAGINA FOOTER-->
 
-  <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="https://www.itescam.edu.mx/portal/"><div class="lb-nav"><a class="lb-prev" href="https://www.itescam.edu.mx/portal/"></a><a class="lb-next" href="https://www.itescam.edu.mx/portal/"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>
+  <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="https://www.itescam.edu.mx/portal/"><div class="lb-nav"><a class="lb-prev" href="https://www.itescam.edu.mx/portal/"></a><a class="lb-next" href="https://www.itescam.edu.mx/portal/"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>
+  <script src="{{asset('js/temas.js')}}"></script>
+</body>
+  </html>
