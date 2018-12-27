@@ -3,8 +3,20 @@
 	padding: 0;
 }
 
+/* aqui empiezan los temas */
+.verano{
+	--header-color: #0b8667;
+    --primary-color:#1bb093;
+    --secondary-color:#e0f4f0;
+	--detalles-color: #575586;
+    --destatitle-color: #b4ccff;
+    --destacados-color:#ddeeff;
+}
+/* aqui terminan los temas */
 .tit{
-    text-align:center;  
-    
+    text-align:center;   
+}
+.navbar{
+	background-color: var(--header-color) !important;
 }
 
